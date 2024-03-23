@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>website using tailwind</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/d1e08a04af.js" crossorigin="anonymous"></script>
+    <style>
+        img {
+            mix-blend-mode: darken;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="bg-purple-600">
+        <div class="container m-auto">
+            <nav class="w-full flex justify-between items-center text-white px-10 py-3">
+                <div>
+                    <h1 class="text-3xl font-extrabold">Anita Jaggi</h1>
+                </div>
+                <div class="flex gap-10 items-center">
+                    <a class="text-base font-semibold" href="#">Home</a>
+                    <a class="text-base font-semibold" href="#">About</a>
+                    <a class="text-base font-semibold" href="#">Servises</a>
+                    <!-- <a class="text-base font-semibold" href="#">Portfolio</a> -->
+                    <a class="text-base font-semibold bg-white border text-black px-5 py-1.5 rounded hover:bg-transparent hover:border hover:text-white"
+                        href="#">Contact</a>
+                </div>
+            </nav>
+        </div>
+    </div>
+    <div class="hero-section h-full">
+        <div class="container">
+            <div class="grid lg:grid-cols-2 md:grid-cols-2 sm:grid-cols-1">
+                <div class="p-20 pt-40">
+                    <h1 class="text-4xl">
+                        Welcome to <span class="text-purple-600 font-bold">Anita Jaggi</span> Website!
+                    </h1>
+                    <p class="mt-2">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam reiciendis eos dolore ad
+                        eaque
+                        possimus nam nemo libero ut nesciunt!
+                    </p>
+                    <div class="py-4">
+                        <button
+                            class="bg-purple-600 border border-purple-600 text-white px-4 py-2 rounded mr-2">Service</button>
+                        <!-- <button
+                            class="bg-transparent text-black border border-purple-600 px-4 py-2 rounded">Portfolio</button> -->
+                    </div>
+                    <div class="text-2xl">
+                        <a href="#"><i class="fa-brands fa-instagram bg-purple-600 text-white p-1 rounded mr-2"></i></a>
+                        <a href="#"><i class="fa-brands fa-twitter bg-black text-white p-1 rounded mr-2"></i></a>
+                        <a href="#"><i class="fa-brands fa-github bg-purple-600 text-white p-1 rounded mr-2"></i></a>
+                    </div>
+                </div>
+                <div class="pt-10">
+                    <img src="img/girl.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="about bg-gray-100 pb-10">
+        <div class="container m-auto px-10">
+            <div class="text-center p-10">
+                <h1 class="text-purple-600 font-bold text-2xl underline">About</h1>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Possimus, molestiae.</p>
+            </div>
+            <div class="grid lg:grid-cols-2 md:grid-cols-1">
+                <div>
+                    <h1 class="text-purple-600 font-bold underline text-xl my-2">About - Anita Jaggi</h1>
+                    <div class="my-5">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A veritatis ipsum fuga facilis
+                            quidem,
+                            officia nostrum! Dolore rerum sint suscipit mollitia commodi atque, est natus id esse quia
+                            veniam nostrum.</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem, voluptatum? Quaerat ea
+                            aliquid,
+                            hic voluptatum sunt mollitia architecto dolor odio distinctio officia eligendi ipsum
+                            quibusdam?
+                            Quae laborum officiis laboriosam harum.</p>
+                    </div>
+                    <button
+                        class="bg-purple-600 border border-purple-600 text-white px-4 py-2 rounded mt-2">Contact</button>
+                </div>
+                <div>
+                    <img class="max-w-96 m-auto" src="img/about.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="services pb-10">
+        <div class="container m-auto px-10">
+            <div class="text-center p-10">
+                <h1 class="text-purple-600 font-bold text-2xl underline">Services</h1>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Possimus, molestiae.</p>
+            </div>
+            <div class="grid lg:grid-cols-4 md:grid-cols-2 sm:grid-cols-2 gap-3">
+                <div class="bg-purple-600 text-white p-4 rounded">
+                    <i class="fa-solid fa-list text-purple-600 bg-white p-2 rounded"></i>
+                    <h1 class="text-white text-2xl font-bold my-2">Service 1</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam, animi.</p>
+                </div>
+                <div class="bg-purple-600 text-white p-4 rounded">
+                    <i class="fa-solid fa-list text-purple-600 bg-white p-2 rounded"></i>
+                    <h1 class="text-white text-2xl font-bold my-2">Service 1</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam, animi.</p>
+                </div>
+                <div class="bg-purple-600 text-white p-4 rounded">
+                    <i class="fa-solid fa-list text-purple-600 bg-white p-2 rounded"></i>
+                    <h1 class="text-white text-2xl font-bold my-2">Service 1</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam, animi.</p>
+                </div>
+                <div class="bg-purple-600 text-white p-4 rounded">
+                    <i class="fa-solid fa-list text-purple-600 bg-white p-2 rounded"></i>
+                    <h1 class="text-white text-2xl font-bold my-2">Service 1</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam, animi.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="contact-section pb-10">
+        <div class="container m-auto px-10">
+            <div class="text-center p-10">
+                <h1 class="text-purple-600 font-bold text-2xl underline">Contact</h1>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Possimus, molestiae.</p>
+            </div>
+            <div class="grid lg:grid-cols-2 md:grid-cols-1">
+                <div>
+                    <img class="bg-blend-darken" src="img/contact.jpg" alt="">
+                </div>
+                <div>
+                    <form class="w-4/5 m-auto shadow-lg py-3 px-3 rounded">
+                        <h1 class="text-2xl font-semibold">Get in touch</h1>
+                        <input class="border w-full p-1 rounded my-3 border-purple-600 outline-none" type="text"
+                            placeholder="Name">
+                        <input class="border w-full p-1 rounded my-3 border-purple-600 outline-none" type="number"
+                            placeholder="Phone">
+                        <input class="border w-full p-1 rounded my-3 border-purple-600 outline-none" type="email"
+                            placeholder="Email">
+                        <textarea class="border w-full p-1 rounded my-3 border-purple-600 outline-none resize-none"
+                            placeholder="Massage"></textarea>
+                        <button
+                            class="bg-purple-600 border border-purple-600 text-white px-6 py-2 rounded mt-2">Send</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="container m-auto">
+            <div class="grid lg:grid-cols-3 md:grid-cols-1 border-t py-5">
+                <div>
+                    <h1 class="text-3xl font-extrabold text-purple-600">Anite Jaggi</h1>
+                </div>
+                <div class="bg-purple-300 h-0.5 mt-6"></div>
+                <div class="text-2xl text-right">
+                    <a href="#"><i class="fa-brands fa-instagram bg-purple-600 text-white p-1 rounded mr-2"></i></a>
+                    <a href="#"><i class="fa-brands fa-twitter bg-black text-white p-1 rounded mr-2"></i></a>
+                    <a href="#"><i class="fa-brands fa-github bg-purple-600 text-white p-1 rounded mr-2"></i></a>
+                </div>
+            </div>
+    </footer>
+</body>
+
+</html>
