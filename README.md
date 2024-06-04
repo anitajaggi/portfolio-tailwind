@@ -1,1 +1,1 @@
-in this design i use only html and tailwind css framework
+In this design, I use only HTML and the Tailwind CSS framework.
